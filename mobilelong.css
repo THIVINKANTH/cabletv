@@ -1,0 +1,330 @@
+
+@media screen and (max-width:479px) {
+    #recharge{
+        display: flex;
+        flex-wrap: wrap;
+        width: 400px;
+    }
+    #plans
+    {
+       margin-left: -107px;
+    }
+    #readyhead{
+        font-size: 28px;
+        width: 400px;
+        /* display: none; */
+        /* margin-top: -115px; */
+    }
+    #cable4{
+        padding-left: 380px;
+    }
+    #cable3
+    {
+        margin-bottom: -81px;
+    }
+    #plan{
+        padding-left: 60px;
+        width: 400px;
+    }
+    #bills{
+        width: 400px;
+        margin-left: -65px;
+    }
+    #card1
+    {
+        margin-left: 5px;
+    }
+    #card2
+    {
+        margin-left: 75px;
+    }
+    #card3
+    {
+        margin-left: 75px;
+    }
+   
+    /* system */
+    #systempage{
+        display: flex;
+        flex-wrap: wrap-reverse;
+        margin-right: 5px;
+    }
+    #systempage > #systems{
+        flex: 1 0 600px;
+    }
+    #systemloram{
+        /* width: 400px;
+        margin-right: 125px; */
+        margin-right: 29px;
+    }
+    #systembutton
+    {
+        margin-right: 235px;
+    }
+    #systems
+    {
+        margin-left: 100px;
+    }
+    #system{
+        width: 540px;
+    }
+    
+    /* services */
+    #services{
+        margin-left: -107px;
+    }
+    #gifs{
+        padding-left: 160px;
+    }
+    #gif
+    {
+        width:250px ;
+    }
+    #gifloram{
+        padding-right: 285px;
+        padding-left: 140px;
+    }
+    #gifbutton{
+        margin-top: 50px;
+        margin-left: 245px;
+    }
+
+    #page2{
+        margin-left: -107px;
+    }
+    #wholoram{
+        width: 400px;
+        padding-left: 30px;
+    }
+
+
+    /* head */
+    #headtext
+    {
+        margin-top: -125px;
+        width: 400px;
+        padding-left: 80px;
+        font-size: 41px;
+    }
+    #headloram{
+        /* margin-left: 80px;
+       width: 450px; */
+       margin-left: -75px;
+    }
+    #headbutton
+    {
+        margin-left: 145px;
+        margin-bottom: 55px;
+        margin-top: 25px;
+    }
+    #headimage
+    {
+        margin-top: -125px;
+        margin-left: -45px;
+    }
+    #headmobile{
+        /* width: 350px; */
+        height: 560px;
+    }
+    #headperson{
+        width: 130px;
+        height: 560px;
+    }
+
+    /* nav */
+    #navbutton
+    {
+        margin-left: 145px;
+        margin-right: 5px;
+    }
+    .navbar-nav{
+        margin-left: 25px;
+    }
+
+    /* contact */
+    #contact{
+        display: flex;
+        flex-wrap: wrap;
+        width: 400px;
+        margin-left: -107px;
+    }
+    #happy
+    {
+        padding-left: 30px;
+        width: 400px;
+    }
+    #happyloram
+    {
+        padding-left: 30px;
+        padding-right: 25px;
+    }
+    #contact-phone
+    {
+        width: 400px;
+        margin-left: 35px;
+    }
+    #contact-num{
+        /* margin-left: 125px; */
+        margin-left: 0px;
+    }
+    #cantactimg
+    {
+        margin-left: 42px;
+    }
+    #email-img
+    {
+        margin-left: 42px;
+    }
+    #contactform{
+        width: 400px;
+        margin-top: 50px;
+        margin-left: 168px;
+        margin-right: 290px;
+        
+    }
+    #inputform{
+        margin-top: -25px;
+    }
+    #formdiv
+    {
+        margin-top: -35px;
+    }
+    input{
+        width: 268px;
+        margin: 0px;
+    }
+    textarea{
+        width: 350px;  
+    }
+    #submit {
+        width: 345px;
+    }
+
+
+
+      /* carousel */
+
+
+      #last{
+        padding-left: 30px;
+      }
+      .quote-icon {
+        width: 20px;
+        height: 20px;
+    }
+    #card-loram{
+      
+       
+        line-height: 20px;
+        font-size: 14px;
+        font-family: Poppins;
+        color: #6a6a6a;
+       
+    }
+    .frame-item {
+        width: 40px;
+        height: 40px;
+        margin-top: -4px;
+    }
+    .card-name {
+        font-size: 12px;
+        margin-left: 55px;
+        margin-top: -37px;
+        line-height: 11px;
+    }
+    .work{
+        font-size: 12px;
+        line-height: 0px;
+        margin-left: 54px;
+    }
+    #carouselcard1{
+        width: 500px;
+        height: 257px;
+        display: block;
+        margin-left: 1px;
+    }
+    #carouselcard2{
+        width: 500px;
+        height: 257px;
+        display: block;
+        /* margin-left: 60px; */
+        /* margin-right: 60px; */
+    }
+    #carouselcard3{
+        width: 500px;
+        height: 257px;
+        display: block;
+        /* margin-left: 60px;
+        margin-right: 60px; */
+        display: none;
+    }
+
+
+
+
+    #downapp{
+        padding-left: 30px;
+    }
+    #downhead{
+        font-size: 28px;
+    }
+   
+    #downplan{
+        padding-left: 60px;
+    }
+    #downcable2 {
+        padding-left: 339px;
+    }
+    #footmobile{
+        width: 150px;
+        padding-left: 30px;
+        padding-top: 107px;
+   }
+   #google{
+    padding-left: 45px;
+    padding-top: 176px;
+    }
+    #apple{
+        margin-left: 280px;
+        margin-top: -345px;
+        margin-bottom: 10px;
+    }
+    
+    #playimg{
+        width: 170px;
+    }
+    #launchtext{
+        font-size: 18px;
+    }
+    #footlist{
+    padding-left: 50px;
+    font-size: 15px;
+    }
+    #footlist2{
+        padding-left: 23px;
+        font-size: 15px;
+    }
+    #footlist3{
+        padding-left: 50px;
+        font-size: 15px;
+    }
+    #footli{
+        font-size: 10px;
+        line-height: 10px;
+        padding-left: 96px;
+    }
+    #copy{
+        padding-left: 30px;
+        font-size: 12px;
+    }
+    #power {
+    padding-left: 90px;
+    font-size: 12px;
+    }
+    #footwidth{
+        margin-left: 0px;
+    }
+   #footimg{
+    width: 35px;
+   }
+}

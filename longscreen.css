@@ -1,0 +1,285 @@
+/* 600 */
+
+@media  (max-width:600px) {
+    #recharge{
+        display: flex;
+        flex-wrap: wrap;
+        width: 600px;
+    }
+    #plans
+    {
+       margin-left: -107px;
+    }
+    #readyhead{
+        font-size: 38px;
+        width: 500px;
+        /* display: none; */
+        /* margin-top: -115px; */
+    }
+    #cable4{
+        padding-left: 504px;
+    }
+    #cable3
+    {
+        margin-bottom: -81px;
+    }
+    #plan{
+        padding-left: 60px;
+    }
+    #bills{
+        width: 600px;
+        
+    }
+    #card1
+    {
+        margin-left: 5px;
+    }
+    #card2
+    {
+        margin-left: 140px;
+    }
+    #card3
+    {
+        margin-left: 140px;
+    }
+   
+    /* system */
+    #systempage{
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+    #systempage > #systems{
+        flex: 1 0 600px;
+    }
+    #systemloram{
+        width: 500px;
+        margin-right: 85px;
+        
+    }
+    #systembutton
+    {
+        margin-right: 285px;
+    }
+    #systems
+    {
+        margin-left: 70px;
+    }
+    
+    /* services */
+    #services{
+        margin-left: -107px;
+    }
+    #gifs{
+        padding-left: 210px;
+    }
+    #gif
+    {
+        width:250px ;
+    }
+    #gifloram{
+        padding-right: 205px;
+        padding-left: 180px;
+    }
+    #gifbutton{
+        margin-top: 50px;
+        margin-left: 285px;
+    }
+
+    #page2{
+        margin-left: -107px;
+    }
+    #wholoram{
+        width: 500px;
+        padding-left: 40px;
+    }
+
+
+    /* head */
+    #headtext
+    {
+        width: 600px;
+        padding-left: 80px;
+    }
+    #headloram{
+        padding-left: 110px;
+    }
+    #headbutton
+    {
+        margin-left: 185px;
+        margin-bottom: 55px;
+        margin-top: 25px;
+    }
+    #headimage
+    {
+        margin-left: -45px;
+    }
+
+    /* nav */
+    #navbutton
+    {
+        margin-left: 255px;
+        margin-right: 245px;
+    }
+    .navbar-nav{
+        margin-left: 95px;
+    }
+
+    /* contact */
+    #contact{
+        display: flex;
+        flex-wrap: wrap;
+        width: 600px;
+        margin-left: -107px;
+    }
+    #happy
+    {
+        padding-left: 60px;
+        width: 600px;
+    }
+    #happyloram
+    {
+        padding-left: 65px;
+    }
+    #contact-phone
+    {
+        margin-left: 65px;
+    }
+    #contactform{
+        width: 560px;
+        margin-top: 50px;
+        margin-left: 138px;
+        margin-right: 390px;
+        
+    }
+    input{
+        width: 230px;
+    }
+    textarea{
+        width: 500px;
+    }
+    #submit {
+        width: 480px;
+    }
+   
+
+
+      /* carousel */
+
+
+      #last{
+        padding-left: 30px;
+      }
+      .quote-icon {
+        width: 20px;
+        height: 20px;
+    }
+    #card-loram{
+      
+       
+        line-height: 20px;
+        font-size: 14px;
+        font-family: Poppins;
+        color: #6a6a6a;
+       
+    }
+    .frame-item {
+        width: 40px;
+        height: 40px;
+        margin-top: -4px;
+    }
+    .card-name {
+        font-size: 12px;
+        margin-left: 55px;
+        margin-top: -37px;
+        line-height: 11px;
+    }
+    .work{
+        font-size: 12px;
+        line-height: 0px;
+        margin-left: 54px;
+    }
+    #carouselcard1{
+        width: 500px;
+        height: 257px;
+        display: block;
+        margin-left: 1px;
+    }
+    #carouselcard2{
+        width: 500px;
+        height: 257px;
+        display: block;
+        /* margin-left: 60px; */
+        /* margin-right: 60px; */
+    }
+    #carouselcard3{
+        width: 500px;
+        height: 257px;
+        display: block;
+        /* margin-left: 60px;
+        margin-right: 60px; */
+        display: none;
+    }
+
+
+
+
+    #downapp{
+        padding-left: 30px;
+    }
+    #downhead{
+        font-size: 30px;
+    }
+    #downplan{
+        padding-left: 60px;
+    }
+    #downcable2 {
+        padding-left: 368px;
+    }
+    #footmobile{
+        width: 150px;
+        padding-left: 30px;
+        padding-top: 107px;
+   }
+   #google{
+    padding-left: 45px;
+    padding-top: 176px;
+    }
+    #apple{
+        margin-left: 337px;
+        margin-top: -345px;
+        margin-bottom: 10px;
+    }
+    
+    #playimg{
+        width: 170px;
+    }
+    #launchtext{
+        font-size: 18px;
+    }
+    #footlist{
+    padding-left: 1px;
+    font-size: 20px;
+    }
+    #footlist{
+        font-size: 20px;
+    }
+    #footli{
+        font-size: 10px;
+        line-height: 10px;
+        padding-left: 85px;
+    }
+    #copy{
+        padding-left: 30px;
+        font-size: 12px;
+    }
+    #power {
+    padding-left: 0px;
+    font-size: 12px;
+    }
+    #footwidth{
+        margin-left: 0px;
+    }
+   #footimg{
+    width: 35px;
+   }
+}
