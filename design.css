@@ -1,0 +1,42 @@
+#head
+{
+    background-image: url("images/headback.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.nav-link
+{
+        font-size: 20px;
+        font-weight: 500;
+        font-family: Poppins;
+        color: #000;
+        overflow: hidden;
+       
+}
+
+#headtext{
+    font-size: 48px;
+    line-height: 72px;
+    font-weight: 500;
+    font-family: Poppins;
+    color: #1b1b1b;
+}
+#headloram{
+    font-size: 22px;
+    letter-spacing: 0.02em;
+    line-height: 34px;
+    font-family: Poppins;
+    color: #343434;
+
+}
+#headbutton{
+    border-radius: 12px;
+border: 1.8px solid #0b108d;
+box-sizing: border-box;
+width: 222px;
+height: 59.8px;
+padding: 10px;
+
+}
