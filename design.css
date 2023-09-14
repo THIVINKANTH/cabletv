@@ -17,26 +17,246 @@
 }
 
 #headtext{
-    font-size: 48px;
-    line-height: 72px;
+    font-size: 45px;
     font-weight: 500;
     font-family: Poppins;
     color: #1b1b1b;
+    overflow: hidden;
 }
 #headloram{
     font-size: 22px;
     letter-spacing: 0.02em;
-    line-height: 34px;
     font-family: Poppins;
     color: #343434;
-
+    overflow: hidden;
 }
 #headbutton{
-    border-radius: 12px;
-border: 1.8px solid #0b108d;
-box-sizing: border-box;
-width: 222px;
-height: 59.8px;
-padding: 10px;
 
+    font-size: 26px;
+    font-weight: 500;
+    font-family: Poppins;
+    color: #000;
+
+    border-radius: 12px;
+    border: 1.8px solid #0b108d;
+    box-sizing: border-box;
+    width: 222px;
+    height: 59.8px;
+    padding: 10px;
+    overflow: hidden;
+
+}
+
+/* page-2 */
+
+
+#weare
+{
+    background-image: url("images/weare-back.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+#who
+{
+    letter-spacing: 0.01em;
+    line-height: 72px;
+    font-weight: 500;
+    font-family: Poppins;
+    background: linear-gradient(180deg, #0533d3, rgba(37, 41, 57, 0.71));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    overflow: hidden;
+}
+#wholoram{
+    font-size: 24px;
+    letter-spacing: 0.02em;
+    font-family: Poppins;
+    color: #222;
+    overflow: hidden;
+}
+
+
+
+/* cards */
+
+#card1{
+    border-radius: 16px;
+    background-color: #fbfbfb;
+    box-shadow: 2px 4px 36px rgba(0, 0, 0, 0.1);
+    width: 334px;
+    height: 580px;
+    overflow: hidden;
+}
+#card-head{
+    font-size: 42px;
+    letter-spacing: 0.01em;
+    line-height: 62px;
+    font-weight: 500;
+    font-family: Poppins;
+    color: #717171;
+    overflow: hidden;
+}
+#text{
+    font-size: 56px;
+    letter-spacing: 0.01em;
+    line-height: 88px;
+    font-weight: 600;
+    font-family: Poppins;
+    color: #4d4d4d;
+    overflow: hidden;
+}
+#month{
+    font-size: 20px;
+    letter-spacing: 0.01em;
+    line-height: 30px;
+    font-weight: 500;
+    font-family: Poppins;
+    color: #8b8b8b;
+    overflow: hidden;
+}
+#cardbutton{
+
+    font-size: 20px;
+    letter-spacing: 0.01em;
+    font-weight: 500;
+    font-family: Poppins;
+    color: #fff;
+
+    border-radius: 12px;
+    background-color: #3291e9;
+    width: 264px;
+    height: 50px;
+    padding: 10px;
+    overflow: hidden;
+}
+ul{
+    font-size: 20px;
+    letter-spacing: 0.01em;
+    line-height: 30px;
+    font-weight: 500;
+    font-family: Poppins;
+    color: #000;
+    text-align: left;
+    overflow: hidden;
+}
+#list{
+    list-style-type: none;
+    font-size: 16px;
+    letter-spacing: 0.01em;
+    line-height: 24px;
+    font-weight: 500;
+    font-family: Poppins;
+    color: #646464;
+    margin-left: -29%;
+    padding-top: 6%;
+    overflow: hidden;
+}
+#footer{
+    
+    font-size: 24px;
+    letter-spacing: 0.01em;
+    font-weight: 500;
+    font-family: Poppins;
+    color: #000;
+    overflow: hidden;
+}
+#cardpop{
+    border-radius: 6px;
+    background-color: #d1e9ff;
+    width: 69px;
+    height: 28px;
+   margin-left: 69%;
+   margin-top: 2%;
+   overflow: hidden;
+}
+
+#happy{
+    letter-spacing: 0.01em;
+    font-weight: 500;
+    font-family: Poppins;
+    color: #000;
+    overflow: hidden;
+}
+#phone{
+    border-radius: 12px;
+    background-color: #f1f1f1;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.21);
+    width: 400px;
+    height: 170px;
+    
+}
+#card-phone{
+    font-size: 22px;
+    line-height: 36px;
+    font-weight: 600;
+    font-family: Poppins;
+    color: #4d4d4d;
+    overflow: hidden;
+    overflow-y: hidden;
+}
+#card-number{
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 500;
+    font-family: Poppins;
+    color: #707070;
+    overflow: hidden;
+}
+#form{
+    border-radius: 16px;
+    background-color: #f1f1f1;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.21);
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.form-label{
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 500;
+    font-family: Poppins;
+    color: #353535;
+    margin-top: 9%;
+    margin-left: 3%;
+    overflow: hidden;
+}
+.form-control{
+
+    font-size: 14px;
+    line-height: 24px;
+    font-family: Poppins;
+    color: #989898;
+
+    border-radius: 24px;
+    border: 0.8px solid #969696;
+    box-sizing: border-box;
+    width: 100%;
+    height: 44.8px;
+    margin-top: 5%;
+    overflow: hidden;
+}
+#form-button{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+    font-family: Poppins;
+    color: #fff;
+    margin-left: 2.5%;
+    margin-top: 25%;
+    border-radius: 36px;
+    background-color: #2547bf;
+    width: 100%;
+    height: 59px;
+    margin-bottom: 5%;
+    overflow: hidden;
+}
+
+#last{
+    background-image: url("images/lastpageback.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
 }
