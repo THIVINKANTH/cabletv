@@ -46,6 +46,10 @@
     overflow: hidden;
 
 }
+#headbutton:hover{
+    color: #FFFFFF;
+    background-color: #0B108D;
+}
 
 /* page-2 */
 
@@ -61,7 +65,6 @@
 #who
 {
     letter-spacing: 0.01em;
-    line-height: 72px;
     font-weight: 500;
     font-family: Poppins;
     background: linear-gradient(180deg, #0533d3, rgba(37, 41, 57, 0.71));
@@ -85,9 +88,13 @@
     border-radius: 16px;
     background-color: #fbfbfb;
     box-shadow: 2px 4px 36px rgba(0, 0, 0, 0.1);
-    width: 334px;
+    /* width: 334px; */
+    width: 281px;
     height: 580px;
     overflow: hidden;
+}
+#card1:hover{
+    background-color: #87A6F6;
 }
 #card-head{
     font-size: 42px;
@@ -126,7 +133,8 @@
 
     border-radius: 12px;
     background-color: #3291e9;
-    width: 264px;
+    /* width: 264px; */
+    width: 240px;
     height: 50px;
     padding: 10px;
     overflow: hidden;
@@ -152,6 +160,12 @@ ul{
     margin-left: -29%;
     padding-top: 6%;
     overflow: hidden;
+}
+.card-footer{
+    background-color: #DCDCDC;
+}
+.card-footer:hover{
+    background-color: #87A6F6;
 }
 #footer{
     
@@ -260,3 +274,136 @@ ul{
     background-size: cover;
     overflow: hidden;
 }
+
+#carouselcard1{
+    width: 509px;
+    height: 300px;
+    margin-left: 60px;
+    background-color: #FDFDFD;
+    overflow: hidden;
+}
+#quote-icon {
+    width: 72px;
+    height: 72px;
+    margin-left: -67%;
+    overflow: hidden;
+}
+#cardloram{
+    font-size: 20px;
+    letter-spacing: 0.01em;
+    font-family: Poppins;
+    color: #6a6a6a;
+    overflow: hidden;
+}
+#car{
+    background-color: #E0E9FF;
+}
+#card-img{
+    border-radius: 50%;
+    width: 78px;
+    height: 78px;
+    /* margin-left: -73%; */
+    text-align: end;
+    object-fit: cover;
+    overflow: hidden;
+}
+#card-name{
+    font-size: 20px;
+    letter-spacing: 0.01em;
+    font-weight: 500;
+    font-family: Poppins;
+    color: #000;
+    text-align: start;
+    /* margin-left: 30%;
+    margin-top: -35%; */
+    overflow: hidden;
+}
+#work{
+    font-size: 17px;
+    letter-spacing: 0.01em;
+    font-weight: 500;
+    font-family: Poppins;
+    color: #7280fe;
+    text-align: start;
+    /* margin-left: 22%;
+    margin-top: -5%; */
+    overflow: hidden;
+}
+#footers{
+    background-image: url("images/footerback.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden; 
+}
+ol{
+    font-size: 22px;
+    font-weight: 500;
+    font-family: Poppins;
+    color: #fff;
+    margin-top: 5%;
+    overflow: hidden;
+}
+#foot{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Poppins;
+    color: #fff;
+    list-style: none;
+    margin-top: 5%;
+    overflow: hidden;
+}
+#company{
+    font-size: 18px;
+    font-family: Poppins;
+    color: #b3b3b3;
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+    .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+/* medium and up screens */
+@media (min-width: 768px) {
+    
+    .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-next {
+      transform: translateX(25%);
+    }
+    
+    .carousel-inner .carousel-item-start.active, 
+    .carousel-inner .carousel-item-prev {
+      transform: translateX(-25%);
+    }
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start { 
+  transform: translateX(0);
+}
+
